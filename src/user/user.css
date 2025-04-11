@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+
+  font-family: Arial;
+}
+
+.user-container {
+  height: 100vh;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.user-card {
+  background-color: rgb(62, 90, 99);
+  width: 250px;
+  height: 250px;
+  border-radius: 20px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
